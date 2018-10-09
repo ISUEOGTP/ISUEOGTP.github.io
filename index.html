@@ -1,18 +1,318 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="description" content="ISUEOGTP index page">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ISUEOGTP GitHub</title>
+	
+	<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+	
+<style id="jsbin-css">
+body {
+	margin: 10px;
+}
+#container {
+	background-Color: white;
+	border: 2px solid black;
+	padding: 10px;
+}
+#headerContainer {
+	background-Color: white;
+	height: 144px;
+}
+#headerLogo {
+	background-color:powderblue;
+	height: 144px;
+	width: 144px;
+	float: right;
+}
+#headerTitle {
+	position: absolute;
+	background-color: white;
+	width: -webkit-calc(100% - 194px);
+    width:    -moz-calc(100% - 194px);
+    width:         calc(100% - 194px);
+	height: 144px;
+}
+#headerTitleText {
+	text-align: center;
+	background-color:white;
+	font-size: 24px;
+   	position: relative;
+	margin: 0;
+	top: 15%; 
+	
+	}
+#centeredTexts {
+  margin: 0;
+   position: relative;              
+   top: 50%;           
+   transform: translate(0, -50%)
+}
+#missionStatement {
+    text-align: center;
+	font-style: italic;
+}
+#bodyContainer {
+	float: clear;
+	align: center;
+}
+#repositories {
+	background: white;
+    padding-top: 10px;
+    text-align: center;
+}
+#repository1, #repository2, #repositorySpace {
+	text-align: center;
+	display: inline-block; 
+	width: 120px;
+  	height: 25px;
+  	background-color: #ccc;
+  	border-radius: 5px;
+	padding: 10px;
+	margin: auto;
+	vertical-align: middle;
+}
+#repositorySpace {
+	width: 10px;
+	background-color: white;
+	border-radius: 0px;
+	padding: 0px;
+}
+#repository2 {
+}
+.block2:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+</style>
+</head>
+	
+	
 <body>
-<h1>Geospatial Technology Program</h1>
+	<div id="container">
 
-	This GitHub site is designed to host data and web mapping scripts utilized in the Task Sheets and training workshops offered by the <a href="https://www.extension.iastate.edu/communities/gis">Iowa State University Extension and Outreach Geospatial Technology Program</a> (ISUEOGTP). The ISUEOGTP is administered through the Communities and Economic Development Extension office. The ISUEPGTP's mission is to provide training opportunities to those that are interested in learning geospatial technologies necessary for analyzing and visualizing data. Training opportunities include:<br><br>
+	<div id="headerContainer">
+	
+			<div id="headerTitle"> 
+				<div id="headerTitleText"> 
+				<span id="centeredText">Iowa State University Extension and Outreach <br>Geospatial Technology Program</span></div></div>
+		
+			<div id="headerLogo"> <img src="https://isueogtp.github.io/logo.jpg" alt="Geospatial Technology Program Logo" height="144" width="144"> 
+				
 
+
+
+	</div>
+	
+</div> <!-- end header Container -->
+	
+	<br><br>
+		<div id="bodyContainer">
+
+	This GitHub site provides access to repositories containing data and web mapping scripts that support the Task Sheets and training workshops offered by <a href="https://www.extension.iastate.edu/communities/gis">Iowa State University Extension and Outreach's Geospatial Technology Program</a> (ISUEOGTP). The ISUEOGTP is administered through the Communities and Economic Development Extension office. <br><br>
+		<span id="missionStatement">The ISUEOGTP's mission is to provide training opportunities to those that are interested in learning geospatial technologies necessary for analyzing and visualizing data.</span>
+	<br>		
+<br>Training opportunities include:
+<ul>
 <li>Essentials of ArcGIS Tutorial Series, which provides hands-on introductory instruction to ArcGIS software</li>
 <li>Essentials of QGIS Tutorials Series, hands-on workshop introducing QGIS and other open-source geospatial tools.</li>
-<li>Task Sheets that supplement workshop tutorials by providing quick 'how-to-do' for a wide variety of geospatial, webmapping, coding and data visulization tasks.</li><br>
+<li>Task Sheets that supplement workshop tutorials by providing quick 'how-to-do' for a wide variety of geospatial, webmapping, coding and data visulization tasks.</li></ul>
+	
 To find a full list of task sheets, visit: <a href = "http://www.extension.iastate.edu/communities/gis/quicktasksheets"> http://www.extension.iastate.edu/communities/gis/quicktasksheets</a>
 <br>
 Subscribe to the ISU Geospatial Technology Newsletter If you would like to stay notified on upcoming trainings, new Task Sheets and other Geospatial Technology Program news.
+	<br>
+		<div id="repositories" class="block2">
+			<h4>Repositories</h4>
+			<div id="repository1" class="block2"><a href="https://github.com/ISUEOGTP/GISTaskSheets">Task Sheet Code</a></div><div id="repositorySpace"></div><div id="repository2" class="block2"><a href="https://github.com/ISUEOGTP/GeoJSON">GeoJSON Data</a></div>
+		</div>
+			
+		</div> <!-- end bodyContainer -->	
+			<br>
+	</div>
 	
+
+
+<script id="jsbin-source-css" type="text/css">body {
+	margin: 10px;
+}
+#container {
+	background-Color: white;
+	border: 2px solid black;
+	padding: 10px;
+}
+#headerContainer {
+	background-Color: white;
+	height: 144px;
+}
+#headerLogo {
+	background-color:powderblue;
+	height: 144px;
+	width: 144px;
+	float: right;
+}
+#headerTitle {
+	position: absolute;
+	background-color: white;
+	width: -webkit-calc(100% - 194px);
+    width:    -moz-calc(100% - 194px);
+    width:         calc(100% - 194px);
+	height: 144px;
+}
+#headerTitleText {
+	text-align: center;
+	background-color:white;
+	font-size: 24px;
+   	position: relative;
+	margin: 0;
+	top: 15%; 
 	
-	
+	}
+#centeredTexts {
+  margin: 0;
+   position: relative;              
+   top: 50%;           
+   transform: translate(0, -50%)
+}
+#missionStatement {
+    text-align: center;
+	font-style: italic;
+}
+#bodyContainer {
+	float: clear;
+	align: center;
+}
+#repositories {
+	background: white;
+    padding-top: 10px;
+    text-align: center;
+}
+#repository1, #repository2, #repositorySpace {
+	text-align: center;
+	display: inline-block; 
+	width: 120px;
+  	height: 25px;
+  	background-color: #ccc;
+  	border-radius: 5px;
+	padding: 10px;
+	margin: auto;
+	vertical-align: middle;
+}
+#repositorySpace {
+	width: 10px;
+	background-color: white;
+	border-radius: 0px;
+	padding: 0px;
+}
+#repository2 {
+}
+.block2:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+</script>
 </body>
 </html>
+ jsbin.gifuziz.css
+body {
+	margin: 10px;
+}
+
+#container {
+	background-Color: white;
+	border: 2px solid black;
+	padding: 10px;
+}
+
+#headerContainer {
+	background-Color: white;
+	height: 144px;
+
+}
+
+#headerLogo {
+	background-color:powderblue;
+	height: 144px;
+	width: 144px;
+	float: right;
+}
+
+#headerTitle {
+	position: absolute;
+	background-color: white;
+	width: -webkit-calc(100% - 194px);
+    width:    -moz-calc(100% - 194px);
+    width:         calc(100% - 194px);
+	height: 144px;
+}
+
+
+#headerTitleText {
+	text-align: center;
+	background-color:white;
+	font-size: 24px;
+
+   	position: relative;
+	margin: 0;
+	top: 15%; 
+	
+	}
+
+#centeredTexts {
+  margin: 0;
+   position: relative;              
+   top: 50%;           
+   transform: translate(0, -50%)
+}
+
+#missionStatement {
+    text-align: center;
+	font-style: italic;
+}
+
+
+#bodyContainer {
+	float: clear;
+	align: center;
+}
+
+#repositories {
+	background: white;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#repository1, #repository2, #repositorySpace {
+	text-align: center;
+	display: inline-block; 
+	width: 120px;
+  	height: 25px;
+  	background-color: #ccc;
+  	border-radius: 5px;
+	padding: 10px;
+	margin: auto;
+	vertical-align: middle;
+}
+
+#repositorySpace {
+	width: 10px;
+	background-color: white;
+	border-radius: 0px;
+	padding: 0px;
+}
+#repository2 {
+
+}
+
+.block2:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
